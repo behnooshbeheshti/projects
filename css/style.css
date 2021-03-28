@@ -1,3 +1,13 @@
+@media (max-width: 576px) {
+  h3 {
+    color: black;
+  }
+  h1,
+  h2 {
+    opacity: 0.7;
+  }
+}
+
 :root {
   --primary-color: #e9884a;
   --secondary-color: #f8847d;
