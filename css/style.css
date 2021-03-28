@@ -1,12 +1,17 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #e9884a;
+  --secondary-color: #f8847d;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
-  background-color: #f4f1fe;
+  background: linear-gradient(
+    -86.6deg,
+    rgb(232, 252, 252) 11.2%,
+    rgb(252, 215, 134) 56.2%,
+    rgb(247, 124, 124) 100.2%
+  );
 }
 
 h1,
@@ -58,9 +63,19 @@ p {
   color: white;
 }
 
+.contact-link:hover {
+  color: black;
+  opacity: 0.8;
+}
+
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+}
+
+.about-link:hover {
+  color: black;
+  opacity: 0.8;
 }
 
 .homepage-link {
@@ -79,6 +94,8 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+  color: black;
+  opacity: 0.6;
 }
 
 .primary-link {
@@ -89,4 +106,9 @@ p {
   text-transform: capitalize;
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
+}
+
+.primary-link:hover {
+  color: black;
+  opacity: 0.8;
 }
