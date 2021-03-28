@@ -4,6 +4,13 @@
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+@media (max-width: 576px) {
+  h2,
+  p {
+    text-align: center;
+  }
+}
+
 body {
   margin-top: 100px;
   background: linear-gradient(
